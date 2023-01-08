@@ -113,11 +113,9 @@
 @keyframes fondo-animado1 {
     0%{
         width: 0;
-        /* background-color: #22f2b2; */
     }
     100%{
         width: 12rem;
-        /* background-color: #22f2b2; */
     }
 }
 @keyframes fondo-reversa1 {

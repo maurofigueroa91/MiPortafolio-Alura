@@ -45,11 +45,11 @@ body{
 }
 
 .trasladar{
-    animation: traslado 2s both;
+    animation: traslado .6s both ;
 }
 
 .volver{
-    animation: volver 2s;
+    animation: volver 1s;
 }
 
 @keyframes traslado {
