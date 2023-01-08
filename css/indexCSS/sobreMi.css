@@ -1,0 +1,111 @@
+.sobre-mi{
+    display: flex;
+    width: 100%;
+    min-height: calc(100vh - 4rem);
+    box-shadow: inset 0 -1px 0 #777;
+    box-sizing: border-box;
+    padding: 5rem 0;
+    position: relative;
+}
+
+.quienSoy, .contenedor-estudios{
+    width: 50%;
+    height: 100%;
+}
+.quienSoy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor-biografia{
+    width: 95%;
+    height: 100%;
+    padding: 0 7rem;
+    font-size: 1.8rem;
+    box-shadow: 0px 2px 4px -1px #000;
+    border-top: 3px solid #fd2255;
+    border-bottom: 3px solid #22f2b2;
+    box-sizing: border-box;
+    
+}
+.contenedor-biografia h4{
+    color: #fff;
+    font-weight: normal;
+    padding: 2rem 1rem;
+}
+
+
+.contenedor-biografia div h2{
+    /* display: none; */
+    color: #fd2255;
+    text-align: center;
+    margin-top: 1rem;
+}
+.contenedor-biografia a{
+    color: #fd2255;
+}
+
+.descargar-cv{
+    height: 2rem;
+    text-align: end;
+    padding-right: 2rem;
+    padding-bottom: 2rem;
+}
+
+.destacados{
+    text-align: center;
+ 
+}
+.destacados h2{
+    font-size: 3rem;
+    font-family:'Times New Roman', Times, serif;
+    color: #555;
+    font-style: italic;
+    letter-spacing: .8rem;
+    font-weight: normal;
+
+}
+
+.estudios{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.teclab, .alura{
+    width: 95%;
+    height: 45%;
+    box-shadow: 0px 2px 4px -1px #000;
+    border-top: 3px solid #22f2b2;
+}
+
+.alura{
+    border-top: 3px solid #fd2255;
+    
+}
+
+.titulo-estudio{
+    letter-spacing: 4px;
+    color: #22f2b2;
+    padding: 2rem 0 0 2rem;
+}
+
+.alura .titulo-estudio{
+    color: #fd2255;
+}
+.subtitulo-estudio{
+    padding: 2rem 2rem 0 2rem;
+    color: #fff;
+    font-size: 2rem;
+    font-weight: normal;
+}
+.descripcion-estudio{
+    padding: 0 2rem 0 2rem;
+    color: #999;
+    font-size: 1.4rem;
+    
+}

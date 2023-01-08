@@ -1,0 +1,21 @@
+footer{
+    height: 3rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.copyright{
+
+    padding: 0 1rem;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: normal;
+    letter-spacing: .3rem;
+    border-left: 1px solid #777;
+    border-right: 1px solid #777;
+    color: #fff;
+}

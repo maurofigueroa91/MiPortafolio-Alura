@@ -1,0 +1,143 @@
+/* HEADER */
+.menu{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: auto;
+    grid-template-areas: "logo item1 item2 item3 item4";
+}
+.logo-contenedor{
+    grid-area: logo;
+}
+.contenedor-item1{
+    grid-area: item1;
+}
+.contenedor-item2{
+    grid-area: item2;
+}
+.contenedor-item3{
+    grid-area: item3;
+}
+.contenedor-item4{
+    grid-area: item4;
+}
+
+/* MAIN */
+.contenedor-principal{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: auto;
+    grid-template-areas: "seccion1 seccion1 seccion1 aside"
+                         "seccion2 seccion2 seccion2 seccion2"
+                         "seccion3 seccion3 seccion3 seccion3"
+                         "seccion4 seccion4 seccion4 seccion4"
+                         "seccion5 seccion5 seccion5 seccion5"
+
+}
+
+.inicio{
+    grid-area: seccion1;
+}
+.sobre-mi{
+    grid-area: seccion2;
+}
+.contenedor-habilidades{
+    grid-area: seccion3;
+}
+.portafolio{
+    grid-area: seccion4;
+}
+.contacto{
+    grid-area: seccion5;
+}
+.foto{
+    grid-area: aside;
+}
+
+/* HABILIDADES */
+.habilidades{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 5rem auto auto;
+    grid-template-areas: "titulo titulo titulo"
+                        "html css js"
+                         "java git sql";
+
+    box-sizing: border-box;
+    
+    
+}
+
+.habilidades .titulo-habilidades{
+    grid-area: titulo;
+}
+
+.logo-html{
+    grid-area: html;
+    box-sizing: border-box;
+}
+.logo-css{
+    grid-area:css;
+    box-sizing: border-box;
+}
+.logo-js{
+    grid-area: js;
+    box-sizing: border-box;
+}
+.logo-java{
+    grid-area: java;
+    box-sizing: border-box;
+}
+.logo-sql{
+    grid-area: sql;
+    box-sizing: border-box;
+}
+.logo-git{
+    grid-area: git;
+    box-sizing: border-box;
+}
+
+.habilidades-blandas{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 5rem auto;
+    grid-template-areas: "titulo titulo"
+                         "numero1 numero6"
+                         "numero2 numero7"
+                         "numero3 numero8"
+                         "numero4 numero9"
+                         "numero5 numero10"
+    ;
+}
+.habilidades-blandas .titulo-habilidades{
+    grid-area: titulo;
+}
+.habilidad-blanda1{
+    grid-area: numero1;
+}
+.habilidad-blanda2{
+    grid-area: numero2;
+}
+.habilidad-blanda3{
+    grid-area: numero3;
+}
+.habilidad-blanda4{
+    grid-area: numero4;
+}
+.habilidad-blanda5{
+    grid-area: numero5;
+}
+.habilidad-blanda6{
+    grid-area: numero6;   
+}
+.habilidad-blanda7{
+    grid-area: numero7;
+}
+.habilidad-blanda8{
+    grid-area: numero8;
+}
+.habilidad-blanda9{
+    grid-area: numero9;
+}
+.habilidad-blanda10{
+ grid-area: numero10;   
+}

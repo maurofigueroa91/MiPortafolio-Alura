@@ -1,0 +1,71 @@
+html{
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 4rem;
+}
+body{
+    width: 100vw;
+    background-color: #1d1d1d;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.color-principal{
+    color: #22f2b2;
+}
+
+.oculto-opaco{
+    opacity: 0;
+}
+
+.contenedor-absoluto{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    color: #777;
+    font-size: 20rem;
+    opacity: .1;
+    margin: auto;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: normal;
+    user-select: none;
+    z-index: -1;
+    height: 80%;
+    box-sizing: border-box;
+}
+
+.oculto{
+    display: none;
+    visibility: hidden;
+}
+
+.overflowH{
+    overflow: hidden;
+}
+
+.trasladar{
+    animation: traslado 2s both;
+}
+
+.volver{
+    animation: volver 2s;
+}
+
+@keyframes traslado {
+    0%{
+        transform: translateX(-100vw)
+    }
+    100%{
+        transform: translateX(100vw)
+    }
+}
+
+@keyframes volver {
+    0%{
+        transform: translateX(100vw);
+    }
+    100%{
+        transform: translateX(-100vw);
+    }
+}

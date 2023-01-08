@@ -1,0 +1,105 @@
+.encabezado{
+    width: 100vw;
+    height: 4rem;
+    background:linear-gradient(#575757, #1d1d1d);
+    color: #f1f1f1;
+    box-sizing: border-box;  
+    position: fixed;
+    z-index: 10;
+    top: 0;
+}
+
+.menu{
+    width: 100%;
+    height: 100%;
+    
+    
+}
+.menu a:hover{
+    color: #22f2b2;
+}
+.contenedor-item1, .contenedor-item2, .contenedor-item3, .contenedor-item4{
+    min-width: 6.5rem;
+    height: 4rem;
+    border-bottom: 1px solid #777;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4rem;
+    text-shadow: 2px 2px 2px #000;
+}
+
+.contenedor-item1:hover, .contenedor-item2:hover, .contenedor-item3:hover, .contenedor-item4:hover{
+    outline:1px solid #22f2b2;
+    border: none;
+}
+
+.contenedor-logo{
+    height: 4rem;
+    min-width: 17rem;
+    display: flex;
+    border-bottom: 1px solid #777;
+    background-color: #000;
+}
+.contenedor-logo:hover{
+    outline:1px solid #22f2b2;
+    border: none;
+    
+}
+
+.contenedor-marca, .contenedor-linkedin, .contenedor-github, .contenedor.contenedor-menuH{
+    width: 25%;
+    height: 4rem;
+    overflow: hidden;
+}
+
+.contenedor-marca{
+    text-align: center;
+    min-width: 5rem;
+    padding-top: 5px;
+}
+.contenedor-marca:hover{
+    cursor: pointer;
+    color: #fd2255;
+}
+.contenedor-marca .texto1{
+
+    position: relative;
+    font-size: 2.7rem;
+    font-weight: bolder;
+    bottom: 17px;
+    line-height: 0;
+    
+}
+.contenedor-marca .texto2{
+    position: relative;
+    font-size: 1rem;
+    line-height: 0;
+    bottom: 37px;
+}
+
+.contenedor-linkedin, .contenedor-github, .contenedor-menuH{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contenedor-menuH{
+    display: none;
+}
+
+.logo-close{
+ 
+    transform: scale(1.1);
+}
+
+
+
+.logo-linkedin, .logo-github, .logo-menuH, .logo-close{
+    width: 2.5rem;
+    height: 2.5rem;
+    color: #22f2b2;
+}
+.logo-linkedin:hover, .logo-github:hover, .logo-menuH:hover, .logo-close:hover{
+    color: #fd2255;
+    cursor: pointer;
+}

@@ -1,0 +1,105 @@
+.contenedor-habilidades{
+    display: flex;
+    width: 100%;
+    min-height: calc(100vh - 4rem);
+    padding: 2rem 0;
+    box-sizing: border-box;
+    box-shadow: inset 0 -1px 0 #777;
+    position: relative;
+
+}
+.habilidades, .habilidades-blandas{
+    width: 50%;
+    height: 100%;
+    box-sizing: border-box;
+
+}
+.habilidades{
+    padding: 0 1rem;
+}
+.habilidades-blandas{
+    justify-items: center;
+
+}
+
+.titulo-habilidades{
+    font-family:'Times New Roman', Times, serif;
+    letter-spacing: .8rem;
+    font-style: italic;
+    text-align: center;
+    color: #555;
+    font-size: 4rem;
+    font-weight: normal;
+   
+}
+
+.logos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 11rem;
+    height: 11rem;
+    margin: auto;
+    text-align: center;
+    background-color: #22f2b2;
+    box-sizing: border-box;
+    border-radius: 50%;
+    transition: .5s all;
+}
+.logos:hover{
+    transform: scale(1.2);
+    filter: brightness(4);
+}
+
+.logo-html{
+    background-color: #ff2255;
+}
+.logo-js{
+    background-color: #e1e111;
+}
+
+.logo-java{
+    background-color: #e11111;
+}
+.logo-git{
+    background-color: #e13011;
+}
+.logo-sql{
+    background-color: #0388a6;
+}
+
+.habilidades div img{
+    width: 8rem;
+    height: 8rem;
+    box-sizing: border-box;
+}
+
+.soft{
+    display: flex;
+    width: 90%;
+    height: 5rem;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 2px 4px -1px #000;
+    border-left: 3px solid #fd2255;
+    box-sizing: border-box;
+    align-self: center;
+}
+
+.soft:hover{
+    filter: brightness(4);
+}
+
+.soft h3{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+    letter-spacing: .6rem;
+    color: #fd2255;
+    font-size: 1.5rem;
+}
+.habilidad-blanda10{
+    border-left: 3px solid #22f2b2;
+}
+.habilidad-blanda10 h3{
+    color: #22f2b2;
+}

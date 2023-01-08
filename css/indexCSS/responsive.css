@@ -1,0 +1,317 @@
+@media screen and (max-width:1250px){
+    html{
+        font-size: 14px;
+    }
+    .contenedor-marca{
+        padding-top: 7px;
+    }
+
+    /*SOBRE MI*/
+    .contenedor-biografia{
+        font-size: 1.6rem;
+        padding: 0 3rem;
+    }
+    /* CONTACTO */
+    .formulario-contenedor{
+        width: 60%;
+    }
+    .errores{
+        width: 60%;
+    }
+}
+
+@media screen and (max-width:1050px) {
+    .contenedor-principal{
+        grid-template-columns: repeat(4,1fr);
+        grid-template-rows: auto;
+        grid-template-areas: "aside aside aside aside"
+                             "seccion1 seccion1 seccion1 seccion1"
+                             "seccion2 seccion2 seccion2 seccion2"
+                             "seccion3 seccion3 seccion3 seccion3"
+                             "seccion4 seccion4 seccion4 seccion4"
+                             "seccion5 seccion5 seccion5 seccion5"
+    
+    }
+
+    .contenedor-absoluto{
+        font-size: 14rem;
+        height: calc(80% - 12rem);
+        margin-top: 10rem;
+    }
+    /* INICIO */
+    .inicio{
+        display: inline-block;
+        text-align: center;
+        min-height: auto;
+        padding-top: 0;
+        padding: 2rem 0;
+    }
+    .inicio h2{
+        font-size: 7rem;
+        line-height: .8;
+    }
+
+    .descripcion{
+        display: none;
+    }
+    .img {
+        width: 50%;
+        min-width: 25rem;
+    }
+
+    .foto{
+        min-height: auto;
+        overflow-y: hidden;
+        box-sizing: border-box;
+        box-shadow: none;
+    }
+
+    /* SOBRE MI */
+    .sobre-mi{
+        flex-direction: column;
+        height: auto;
+        box-sizing: border-box;
+    }
+    .quienSoy, .contenedor-estudios{
+        width: 100%;
+        height: auto;
+    }
+    .contenedor-biografia{
+        width: 70%;
+        padding: 0;
+        min-height: auto;
+        font-size: 1rem;
+
+    }
+    .contenedor-biografia div h2{
+        display: block;
+        text-align: center;
+        font-weight: normal;
+        font-family: 'Times New Roman', Times, serif;
+        color: #fd2255;
+    }
+    .contenedor-biografia h4{
+        padding: 1rem;
+        font-size: 1.4rem;
+    }
+    .destacados h2{
+        font-size: 3rem;
+    }
+    .contenedor-estudios{
+        width: 100%;
+    }
+    .estudios{
+        margin: 0 auto;
+        margin-top: 3rem;
+        width: 70%;
+    }
+    .teclab, .alura{
+        padding-bottom: 2rem;
+        box-sizing: content-box;
+        height: auto;
+        width: 100%;
+    }
+
+    /* HABILIDADES */
+
+    .contenedor-habilidades{
+        flex-direction: column;
+        box-sizing: border-box;
+        min-height: auto;
+        padding: 0;
+    }
+    .habilidades, .habilidades-blandas{
+        width: 70%;
+        margin: auto;
+    }
+    .soft{
+        margin: 1rem 0;
+    }
+    .soft h3{
+        font-size: 1.3rem;
+    }
+
+    .logos{
+        margin: 1rem;
+        width: 10rem;
+        height: 10rem;
+    }
+
+    .habilidades div img{
+        width: 7rem;
+        height: 7rem;
+    }
+
+    /* PORTAFOLIO */
+
+    .portafolio{
+        min-height: auto;
+    }
+    .ver-proyectos{
+        width: 10rem;
+        height: 10rem;
+    }
+
+    /* CONTACTO */
+    .formulario-contenedor{
+        width: 60%;
+    }
+
+    .parrafo-contacto{
+        width: 60%;
+        font-size: 1.3rem;
+    }
+    .area{
+        height: 20rem;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    html{
+        font-size: 12px;
+    }
+
+    /* HEADER */
+    .contenedor-marca .texto2{
+        bottom: 32px;
+    }
+    /* INICIO */
+    .img{
+        min-width: 22rem;
+    }
+    .inicio h3{
+        font-size: 1.7rem;
+        border-right: 1px solid #22f2b2;
+    }
+ 
+
+    /* HABILIDADES */
+    .habilidades, .habilidades-blandas{
+        width: 85%;
+    }
+    .logos{
+        width: 7rem;
+        height: 7rem;
+        margin: 1rem auto;
+    }
+    .habilidades div img{
+        width: 5rem;
+        height: 5rem;
+    }
+
+    .habilidades-blandas{
+        text-align: center;;
+    }
+
+    /*CONTACTO*/
+    .contacto{
+        width: 70%;
+        margin: 0 auto;
+    }
+    .formulario-contenedor{
+        width: 100%;
+    }
+    .errores{
+        width: 100%;
+    }
+    .mensaje-exitoso{
+        font-size: 1.2rem;
+        letter-spacing: .3rem;
+    }
+    .titulo-contactos h3{
+        font-size: 3rem;
+    }
+    .parrafo-contacto{
+        width: 100%;
+        text-align: left;
+    }
+
+}
+
+@media screen and (max-width: 540px) {
+    /* HEADER */
+    .menu{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        grid-template-areas: "logo";
+    }
+    .contenedor-logo{
+        grid-area: logo;
+        display: flex;
+        justify-content: space-around;
+        
+    }
+    .contenedor-item1, .contenedor-item2, .contenedor-item3, .contenedor-item4{
+        display: none;
+    }
+    .contenedor-menuH{
+        display: flex;
+    }
+
+    /* INICIO */
+    .inicio h3{
+        font-size: 1.2rem;
+    }
+
+    /* HABILIDADES*/
+    .habilidades-blandas{
+        width: 100%;
+        padding: 0;
+    }
+    .titulo-habilidades{
+        font-size: 3rem;
+    }
+   
+    .soft h3{
+        font-size: 1.1rem;
+    }
+
+    /* PORTAFOLIO */
+    .contenedor-proyectos{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .proyectos{
+        width: 100%;
+        margin: 1rem auto;
+        box-shadow: none;
+        
+    }
+    .proyectos:hover{
+        box-shadow: none;
+    }
+
+    .ver-proyectos{
+        width: 15rem;
+        height: 15rem;
+    }
+    .nombre-proyectos{
+        border: none;
+    }
+
+    /* CONTACTOS */
+    .formulario{
+        flex-direction: column;
+        width: 100%;
+        box-sizing: border-box;
+        overflow-x: hidden;
+    }
+    .inputs{
+        width: 100%;
+    }
+
+    /* FOOTER */
+    .copyright{
+        font-size: .7rem;
+        letter-spacing: .1rem;
+    }
+
+}
+
+@media screen and (max-width: 400px) {
+    .soft h3{
+        letter-spacing: .5rem;
+    }
+}
